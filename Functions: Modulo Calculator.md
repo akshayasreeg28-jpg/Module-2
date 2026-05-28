@@ -1,4 +1,4 @@
-# Functions in Python: Modulo Calculator
+# 2. Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
 To write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator.
@@ -11,9 +11,15 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-
-Add code Here
-
+```
+def result(a,b):
+ print(a%b)
+a=int(input())
+b=int(input())
+result(a,b)
+```
 ## Output
+<img width="601" height="575" alt="image" src="https://github.com/user-attachments/assets/27e336f2-dd3b-4088-82ac-52b22738c624" />
 
 ## Result
+Thus to write a Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator is implemented.
